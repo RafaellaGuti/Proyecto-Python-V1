@@ -35,6 +35,7 @@ Hacer click en 'Servicios' - Ingresar nombre de cualquier servicio y su categori
 Hacer click en 'Clientes' - Ingresar nombre completo, DNI, email y fecha de compra en el formulario - Click en 'Guardar'
 
 *Importante: la fecha de compra se debe añadir de la siguiente manera 'yyyy-mm-dd', es decir, año completo guion medio mes guion medio y dia segun la estructura.
+*Dato: el header puede ocupar todo el espacio de la pantalla, bajar con el mouse para ver los formularios.
 
 Para realizar una busqueda, hacer click en 'Busca por categoria!', puedes ingresar una el nombre de una categoria que hayas ingresado o alguna de las siguientes:
 
