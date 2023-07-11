@@ -1,0 +1,25 @@
+{% extends 'AppOne/padre.html' %}
+
+{% load static %}
+
+{% block contenidoQueCambia %}
+
+<h3>Resultados</h3>
+
+{% if productos %}
+    <ul>
+        {% for produ in productos %}
+            <li>{{ produ.nombre }}</li>
+        {% endfor %}
+{% endif %}
+
+{% if servicios %}
+        {% for serv in servicios %}
+            <li>{{ serv.nombre }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+
+    
+{% endblock %}

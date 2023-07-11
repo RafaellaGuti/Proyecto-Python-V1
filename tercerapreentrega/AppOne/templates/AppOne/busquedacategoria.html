@@ -1,0 +1,23 @@
+{% extends 'AppOne/padre.html' %}
+
+{% load static %}
+
+{% block contenidoQueCambia %}
+
+<h3>Busqueda por Categoria</h3>
+
+{% if miform.errors %}
+<p style="color: red;"> Revisar datos</p>
+{% endif %} 
+
+    <form action="/AppOne/buscar/" method="GET" >
+
+        <input type="text" name="categoria">
+
+         
+        <input type="submit" value="Buscar">
+
+    </form>
+
+    
+{% endblock %}
