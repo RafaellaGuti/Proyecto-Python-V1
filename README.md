@@ -1,4 +1,4 @@
-# Tercera_Pre_Entrega_GutierrezRafaella
+# ES - Tercera_Pre_Entrega_GutierrezRafaella
 Tercera pre-entrega de curso de Python en CoderHouse Comision 54955
 
 # Consigna
@@ -55,3 +55,60 @@ Estos son unos ejemplos de informacion ya ingresada, con el fin de cumplir con l
 
 'One Space, productos y servicios On-demand en un solo lugar'
 
+# EN- Third_Pre-Delivery_GutierrezRafaella
+Third pre-delivery of the Python course at CoderHouse Commission 54955.
+
+# Prompt
+Develop a Django web application using the MVT pattern and upload it to Github.
+
+- HTML Inheritance
+In the Visual Studio Code (VSC), the templates/AppOne folder contains the parent file, parent.html, which will serve as the parent to child templates: inicio.html, productos.html, servicios.html, and clientes.html.
+
+- At least 3 classes in models
+Three classes were created: Productos, Servicios, and Clientes.
+
+- A form to insert data into all model classes
+On the platform's navigation bar, you can find buttons with the same names as the classes. Clicking these buttons will take you to a form where you can enter information.
+
+- A form to search for something in the database
+You can access this form through a visually located button in the center of the platform that says 'Search by category!' There, you can search for a list of products or services within the entered category.
+
+- Readme indicating the order in which things are tested and/or where the functionalities are located
+
+# Platform Usage
+- Superuser: rafaella
+pass: rafa12345
+
+- Limited user: User1
+pass: user12345
+
+- Once the server is running, go to http://127.0.0.1:8000/AppOne/
+
+- Cick on 'Productos' - Enter the name of any product and its category in the form - Click 'Save'
+
+- Click on 'Servicios' - Enter the name of any service and its category in the form - Click 'Save'
+
+- Click on 'Clientes' - Enter full name, DNI, email, and purchase date in the form - Click 'Save'
+
+*Important: The purchase date should be added in the following format 'yyyy-mm-dd', meaning the full year, a hyphen, the month, another hyphen, and the day according to the structure.
+*Note: The header can take up the entire screen space; scroll down with the mouse to view the forms.
+
+To perform a search, click on 'Search by category!', you can enter a category name that you have entered or one of the following:
+
+To display products, enter the following categories:
+
+- Technology
+- Home
+- Decor
+- Kitchen
+
+To display services, enter the following categories:
+
+- Digital Marketing
+- Management
+- Consulting
+- Data
+
+These are examples of information already entered, in line with the platform's concept:
+
+'One Space, on-demand products and services all in one place'
